@@ -19,14 +19,14 @@ st.latex(r'''
 ...     ''')
 
 #-------------------------------------------------
-df = pd.read_csv("1.csv")
-st.dataframe(df)
+#df = pd.read_csv("1.csv")
+#st.dataframe(df)
 # st.table(df)
 
 #-------------------------------------------------
-from PIL import Image
-photo = Image.open("juve.jpg")
-st.image(photo)
+#from PIL import Image
+#photo = Image.open("juve.jpg")
+#st.image(photo)
 
 #-------------------------------------------------
 st.error("Error Message")
